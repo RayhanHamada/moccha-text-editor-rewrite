@@ -1,0 +1,16 @@
+{
+  "name": "mocha-text-editor-rewrite",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.11.3"
+  }
+}
