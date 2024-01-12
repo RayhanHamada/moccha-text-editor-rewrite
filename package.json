@@ -1,5 +1,5 @@
 {
-  "name": "mter-monorepo",
+  "name": "mter",
   "module": "index.ts",
   "type": "module",
   "scripts": {
