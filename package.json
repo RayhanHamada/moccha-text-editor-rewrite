@@ -1,5 +1,5 @@
 {
-  "name": "mocha-text-editor-rewrite",
+  "name": "mter-monorepo",
   "module": "index.ts",
   "type": "module",
   "scripts": {
