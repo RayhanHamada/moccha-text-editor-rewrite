@@ -3,4 +3,10 @@ export default defineNuxtConfig({
 	devtools: {
 		enabled: true,
 	},
+	app: {
+		head: {
+			title: 'Moccha Text Editor',
+
+		},
+	},
 })
