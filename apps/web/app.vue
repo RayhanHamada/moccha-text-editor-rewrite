@@ -1,6 +1,5 @@
 <template>
 	<div>
-		<NuxtWelcome />
-		<div v-html="'asdasd'" />
+		<NuxtPage />
 	</div>
 </template>

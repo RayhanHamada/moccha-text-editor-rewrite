@@ -6,7 +6,13 @@ export default antfu({
 		quotes: 'single',
 	},
 	rules: {
-		'vue/html-indent': ['error', 'tab'],
+		'vue/html-self-closing': ['off'],
+		'vue/max-attributes-per-line': [
+			'error',
+			{
+				singleline: 1,
+			},
+		],
 		'ts/consistent-type-imports': 'error',
 		'max-len': [
 			'error',
