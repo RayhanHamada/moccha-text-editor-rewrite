@@ -1,16 +1,18 @@
 <script lang="ts" setup>
-const count = ref(1)
+
 </script>
 
 <template>
-	<div>
-		Current Count = {{ count }}
-		<br />
-		<button
-			class="outline outline-2 outline-black rounded-md"
-			@click="count++"
+	<div class="flex flex-col w-screen h-screen bg-gray-800">
+		<span
+			class="pl-32 pt-10 text-6xl font-bold text-primary-red"
 		>
-			Increment
-		</button>
+			Moccha Text Editor
+		</span>
+		<span class="pl-32 pt-5 text-4xl text-primary-red">
+			Collaboration Made Easy
+		</span>
+
+		<!-- TypeIt components -->
 	</div>
 </template>

@@ -2,7 +2,11 @@
 export default {
 	content: [],
 	theme: {
-		extend: {},
+		extend: {
+			textColor: {
+				'primary-red': '#e41749',
+			},
+		},
 	},
 	plugins: [],
 }
